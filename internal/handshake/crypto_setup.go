@@ -273,7 +273,7 @@ func newCryptoSetup(
 		GetExtensions:              extHandler.GetExtensions,
 		ReceivedExtensions:         extHandler.ReceivedExtensions,
 		AlternativeRecordLayer:     cs,
-		EnforceNextProtoSelection:  true,
+		EnforceNextProtoSelection:  false,
 		MaxEarlyData:               maxEarlyData,
 		Accept0RTT:                 cs.accept0RTT,
 		Rejected0RTT:               cs.rejected0RTT,
